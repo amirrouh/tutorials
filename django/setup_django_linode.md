@@ -19,7 +19,7 @@ add the following line:
 - linode_ip django-server-name 
 
 
-- Make .ssh directory, add the keys, add permissions 
+Make .ssh directory, add the keys, add permissions 
 - mkdir -p ~/.ssh
 - vim ~/.ssh/authorized_keys 
 
