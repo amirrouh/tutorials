@@ -44,7 +44,9 @@ Firewall settings
 
 If using pipenv instead of venv 
 - vim ~/.bashrc 
-- add export PIPENV_VENV_IN_PROJECT=1 
+
+add the following line:
+- export PIPENV_VENV_IN_PROJECT=1 
 
 Install required packages 
 - sudo apt install pipenv python3-pip python3-dev - libpq-dev postgresql postgresql-contrib nginx curl 
