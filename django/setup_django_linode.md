@@ -146,6 +146,6 @@ Add the following:
 
 Enable https 
 - sudo apt install certbot python3-certbot-nginx 
-- sudo certbot --nginx -d techdana.com -d www.techdana.com 
+- sudo certbot --nginx -d example.com -d www.example.com 
 
 # 4- Setting up Django
