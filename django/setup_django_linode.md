@@ -71,7 +71,14 @@ Setup and create django project
 
 Initial settings.py modifications 
 - ALLOWED_HOSTS = ['your_server_domain_or_IP', 'second_domain_or_IP', . . ., 'localhost']
-- DATABASES = { 'default': { 'ENGINE': 'django.db.backends.postgresql_psycopg2', 'NAME': 'myproject', 'USER': 'myprojectuser', 'PASSWORD': 'password', 'HOST': 'localhost', 'PORT': '', } } 
+- DATABASES = {
+- 'default': { 'ENGINE': 'django.db.backends.postgresql_psycopg2',
+- 'NAME': 'myproject',
+- 'USER': 'myprojectuser',
+- 'PASSWORD': 'password',
+- 'HOST': 'localhost',
+- 'PORT': '',
+-  }}
 - STATIC_ROOT = os.path.join(BASE_DIR, 'static/') 
 
 Complete setup by 
