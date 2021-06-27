@@ -39,6 +39,7 @@ Firewall settings
 - sudo ufw default deny incoming 
 - sudo ufw allow ssh 
 - sudo ufw allow 80 
+- sudo ufw allow 8000
 - sudo ufw enable 
 - sudo ufw status 
 
