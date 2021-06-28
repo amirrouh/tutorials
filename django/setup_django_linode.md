@@ -11,14 +11,6 @@ Generate ssh keys on local machine
 - ssh-keygen -b 4096 
 - ssh djangouser@linode_ip_address
 
-Set the host name for the new machine 
-- sudo hostnamectl set-hostname django_server 
-- sudo vim /etc/hosts
-
-add the following line:
-- linode_ip django-server-name 
-
-
 Make .ssh directory, add the keys, add permissions 
 - mkdir -p ~/.ssh
 - vim ~/.ssh/authorized_keys 
